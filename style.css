@@ -4,6 +4,107 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: "Ex manrope";
+    src: url(./fonts/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Se manrope";
+    src: url(./fonts/Manrope-SemiBold.ttf);
+}
+
+:root {
+    --heading: #293356;
+    --paragraph: #848EAD;
+    --btn-text: #BECDFF;
+    --green: #10D8C4;
+    --discount: #FF8D68;
+}
+
+/* typography */
+
+/* extra bold header */
+.container__header > h1,
+.main__pageViews > span,
+.main__click-btn,
+.billing__discount {
+    font-family: "Ex manrope";
+}
+
+.container__header > h1 {
+    font-size: 1.25rem;
+    line-height: 27.32px;
+    color: var(--heading);
+}
+
+.main__pageViews > span {
+    color: var(--paragraph);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 1.71px;
+}
+
+.billing__discount {
+    font-size: 0.625rem;
+    color: var(--discount);
+}
+
+.main__click-btn {
+    color: var(--btn-text);
+    font-size: 0.75rem;
+    line-height: 1.024rem;
+}
+
+/* semibold paragraph */
+.header__p,
+.main__price-tag > span,
+.main__billing > span,
+ul > li  {
+    font-family: "Se manrope";
+    color: var(--paragraph);
+
+}
+
+.header__p {
+    font-size: 0.8125rem;
+    line-height: 1.44rem;
+}
+
+.main__price-tag > span {
+    font-size: 0.875rem;
+}
+
+/* monthly billing */
+.main__billing > span,
+ul > li {
+    font-size: 0.75rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    min-width: 375px;
+    height: 50rem;
+    background-size: 1040px 400px;
+    background-image: url(./images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    padding: 0em 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header */
+.container__header {
+    height: 5.06rem;
+    width: 100%;
+    margin-top: 5.56rem;
+}
+
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
