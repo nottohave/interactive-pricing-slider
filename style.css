@@ -19,7 +19,8 @@
     --heading: #293356;
     --paragraph: #848EAD;
     --btn-text: #BECDFF;
-    --green: #10D8C4;
+    --light-green: #10D8C4;
+    --dark-green: #24AEA1;
     --discount: #FF8D68;
 }
 
@@ -83,6 +84,8 @@ ul > li {
     font-size: 0.75rem;
 }
 
+
+
 .container {
     width: 80%;
     max-width: 700px;
@@ -99,11 +102,82 @@ ul > li {
 
 /* header */
 .container__header {
-    height: 5.06rem;
+    height: 9.1rem;
     width: 100%;
-    margin-top: 5.56rem;
+    margin-top: 3.56rem;
+    background-image: url(./images/pattern-circles.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
+.container__main {
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.125rem 0rem;
+}
+
+/* SLIDER AREA */
+.main__slider {
+    margin-top: 1.56rem;
+    width: 80%;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 5px; /* Specified height */
+    outline: none; /* Remove outline */
+    background: #ddd; /* Grey background */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 0.9; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: url(./images/icon-slider.svg) no-repeat center; 
+    background-color: var(--light-green);
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 2.5rem; /* Set a specific slider handle width */
+  height: 2.5rem; /* Slider handle height */
+  border: 1.5px solid #979797;
+  border-radius: 50%;
+  background: url(./images/icon-slider.svg) no-repeat center; 
+  background-color: var(--light-green);
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+.slider::-moz-range-progress {
+    background: var(--dark-green);
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
