@@ -264,6 +264,7 @@ ul > li {
     -webkit-transform: translateX(20px);
 }
 
+/* bill discount label */
 .billing__discount {
     height: 100%;
     width: 2.7rem;
