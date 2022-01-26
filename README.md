@@ -11,3 +11,5 @@ Project Blog
 1/24/22
     Add slider & upgrade styles
 
+1/25/22
+    Update toggle labels
