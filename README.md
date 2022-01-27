@@ -13,3 +13,6 @@ Project Blog
 
 1/25/22
     Update toggle labels
+
+1/26/22
+    Update slider range with different price
