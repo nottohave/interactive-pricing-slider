@@ -1,4 +1,8 @@
-Project Blog
+Full Readme will be updated once the project is finished.
+Meanwhile, you can look at the live site here:
+[Live Site](https://nottohave.github.io/interactive-pricing-slider/)
+
+### Project Blog
 1/21/22
     Initialize the interactive pricing project
 
