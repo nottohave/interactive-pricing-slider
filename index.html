@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">  
+  <link rel="stylesheet" href="./components/style.css">  
   <title>Interactive pricing component | Frontend Mentor |  Junor difficulty</title>
 
 </head>
@@ -23,16 +23,20 @@
 
     <main class="container__main">
       <div class="main__pageViews">
-        <span>100k pageviews</span>
+        <p>
+          <span id="output"></span> pageviews
+        </p> 
       </div>
       <div class="main__slider">
         <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-      </div>
+          <input type="range" min="20" max="90" value="40" step="10" class="slider" id="myRange">
+        </div>
   
       </div>
       <div class="main__price-tag">
-        <span> / month</span>
+        <p>
+          <span id="dollar"></span> / month
+        </p>
       </div>
 
       <div class="main__billing">
@@ -75,6 +79,6 @@
     </div>
   
   </div> 
-  
+  <script src="./components/script.js"></script>
 </body>
 </html>
