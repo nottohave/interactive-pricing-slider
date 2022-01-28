@@ -21,3 +21,8 @@ Meanwhile, you can look at the live site here:
 
 1/26/22
     Update slider range with different price
+
+1/27/22
+    Update slider value and add apply discount function on script js
+    Update semantic html
+    Remove string $ and .00 and replace it with css styling.
