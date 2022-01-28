@@ -192,10 +192,20 @@ ul > li {
     margin-top: 2rem;
 }
 
-#dollar {
+#dollar,
+#dollar:before,
+#dollar::after {
     font-family: "Ex manrope";
     font-size: 2rem;
     color: var(--heading);
+}
+
+#dollar:before {
+    content: "$";
+}
+
+#dollar::after {
+    content: ".00";
 }
 
 .main__billing {
