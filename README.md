@@ -26,3 +26,5 @@ Meanwhile, you can look at the live site here:
     Update slider value and add apply discount function on script js
     Update semantic html
     Remove string $ and .00 and replace it with css styling.
+    25% discount apply to monthly prices when user toggle on yearly billing. 
+    
