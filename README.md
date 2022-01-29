@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-[Add solution URL here](https://your-solution-url.com)
-[Live Site](https://nottohave.github.io/interactive-pricing-slider/)
+- Solution link: [Solution Page](https://www.frontendmentor.io/solutions/interactive-pricing-component-fYnN7JCZg)
+- Live Site: [Live Site](https://nottohave.github.io/interactive-pricing-slider/)
 
 ## My process
 
