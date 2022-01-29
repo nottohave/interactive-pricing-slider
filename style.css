@@ -93,7 +93,7 @@ ul > li {
     max-width: 700px;
     min-width: 375px;
     height: 50rem;
-    background-size: 1400px 400px;
+    background-size: 1800px 400px;
     background-image: url(./images/bg-pattern.svg);
     background-repeat: no-repeat;
     padding: 0em 1.5rem;
@@ -360,7 +360,7 @@ hr {
 @media screen and (min-width: 700px) {
     /* body */
     .container {
-        max-width: 1200px;
+        max-width: unset;
         min-width: 768px;
         padding: unset;
     }
