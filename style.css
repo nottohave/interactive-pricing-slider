@@ -343,7 +343,8 @@ hr {
     color: #FFFFFF;
     transition: 0.4s;
     -webkit-transition: 0.4s;
-    -ms-transition: 0.4
+    -ms-transition: 0.4;
+    cursor: pointer;
 }
 
 /* footer/credit */
