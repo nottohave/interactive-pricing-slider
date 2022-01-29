@@ -22,21 +22,26 @@
     </header>
 
     <main class="container__main">
-      <div class="main__pageViews">
-        <p>
-          <span id="output"></span> pageviews
-        </p> 
-      </div>
-      <div class="main__slider">
-        <div class="slidecontainer">
-          <input type="range" min="2" max="9" value="4" step="1" class="slider" id="myRange">
+      <div class="body-header">
+        <div class="main__pageViews">
+          <p>
+            <span id="output"></span> pageviews
+          </p> 
         </div>
   
-      </div>
-      <div class="main__price-tag">
-        <p>
-          <span id="dollar"></span> / month
-        </p>
+        <div class="main__slider">
+          <div class="slidecontainer">
+            <input type="range" min="2" max="9" value="4" step="1" class="slider" id="myRange">
+          </div>
+    
+        </div>
+        
+        <div class="main__price-tag">
+          <p>
+            <span id="dollar"></span> / month
+          </p>
+        </div>
+  
       </div>
 
       <div class="main__billing">
@@ -46,36 +51,40 @@
           <span class="round-slider"></span>
         </label>
         <span>Yearly Billing</span>
-        <label for="discount-tag" class="billing__discount">-25%</label>
+        <label for="discount-tag" class="billing__discount">
+
+        </label>
       </div>
 
       <hr/>
 
-      <ul class="main_benefits">
-        <li>
-          <img src="./images/icon-check.svg" alt="green-check-mark-4-unlimited-websites" class="checkmark">
-          Unlimited websites
-        </li>
-        <li>
-          <img src="./images/icon-check.svg" alt="green-check-mark-4-100%-data-ownership" class="checkmark">
-          100% data ownership
-        </li>
-        <li>
-          <img src="./images/icon-check.svg" alt="green-check-mark-4-email-reports" class="checkmark">
-          Email reports
-        </li>
-
-      </ul>
-
-      <button class="main__click-btn">
-        Start my trial
-      </button>
-
+      <div class="benefit__container">
+        <ul class="main_benefits">
+          <li>
+            <img src="./images/icon-check.svg" alt="green-check-mark-4-unlimited-websites" class="checkmark">
+            Unlimited websites
+          </li>
+          <li>
+            <img src="./images/icon-check.svg" alt="green-check-mark-4-100%-data-ownership" class="checkmark">
+            100% data ownership
+          </li>
+          <li>
+            <img src="./images/icon-check.svg" alt="green-check-mark-4-email-reports" class="checkmark">
+            Email reports
+          </li>
+  
+        </ul>
+  
+        <button class="main__click-btn">
+          Start my trial
+        </button>
+    
+      </div>
     </main>
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Fay</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/nottohave">Fay</a>.
     </div>
   
   </div> 
